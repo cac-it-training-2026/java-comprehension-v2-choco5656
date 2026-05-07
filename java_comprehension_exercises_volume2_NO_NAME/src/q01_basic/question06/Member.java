@@ -1,6 +1,6 @@
-package q01_basic.question04;
+package q01_basic.question06;
 
-class Member {
+public class Member {
 
 	private int id;
 	private String password;
@@ -60,15 +60,17 @@ class Member {
 		this.rank = rank;
 	}
 
-	public void showMember() {
-		System.out.println("***MEMBER DATA***");
-		System.out.println("id;" + id);
-		System.out.println("password:" + password);
-		System.out.println("name:" + name);
-		System.out.println("age:" + age);
-		System.out.println("rank:" + rank);
-		System.out.println("*****************");
-
+	public void buyItem() {
+		System.out.println(name + "purchased the item at 50% off");
 	}
 
+	public void showMember() {
+		System.out.println("***MEMBER DATA***");
+		System.out.println("id:" + id);
+		System.out.println("password:" + password);
+		System.out.println("name" + name);
+		System.out.println("age:" + age);
+		System.out.println("rank:" + rank);
+		System.out.println("***************** ");
+	}
 }
