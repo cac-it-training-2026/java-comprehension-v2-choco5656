@@ -3,8 +3,6 @@ package q02_advanced.question03;
 import java.util.ArrayList;
 import java.util.List;
 
-import q02_advanced.question02.Coupon;
-
 public class Member {
 	private int id;
 	private String password;
